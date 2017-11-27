@@ -1,0 +1,8 @@
+/home/luiz/Documentos/Projetos/projeto_lip/main.cpp: In function ‘void consuta_nome(Aluno*, int)’:
+/home/luiz/Documentos/Projetos/projeto_lip/main.cpp:108:35: error: request for member ‘equals’ in ‘(alunos + ((sizetype)(((long unsigned int)i) * 124ul)))->Aluno::nome’, which is of non-class type ‘char [100]’
+                 if(alunos[i].nome.equals(nm)) {
+                                   ^
+/home/luiz/Documentos/Projetos/projeto_lip/main.cpp: In function ‘int main()’:
+/home/luiz/Documentos/Projetos/projeto_lip/main.cpp:148:22: error: ‘nome’ cannot be used as a function
+                 nome()
+                      ^
